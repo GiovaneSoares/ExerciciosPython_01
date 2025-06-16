@@ -6,7 +6,8 @@
 # mensagem confirmando sua presença.
 
 dicionario = {"Nome": "Ana", "Idade": "25", "Profissão": "Engenheira", "País": "Brasil"}
+
 if "Idade" in dicionario:
-    print(f"sim, existe a chave 'idade' em dicionario")
+    print("Sim, existe a chave 'Idade' em dicionario.")
 else:
     print("lamento, não tem essa chave.")

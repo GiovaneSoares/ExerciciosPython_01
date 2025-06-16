@@ -4,6 +4,4 @@
 # Fórmula:
 #     F = C * 9 / 5 + 32
 temperatura = float(input("Digite a temperatura em graus Celsius: "))
-print(
-    f"A temperatura de {temperatura} ºC convertida para Fahrenheit é de {temperatura * 9 / 5 + 32} ºF."
-)
+print(f"A temperatura de {temperatura} ºC convertida para Fahrenheit é de {temperatura * 9 / 5 + 32} ºF.")

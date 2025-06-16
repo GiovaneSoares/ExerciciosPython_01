@@ -1,5 +1,4 @@
 """Exercício 15.
-
 Cálculo de Salário com Descontos
 Escreva um programa que solicite ao usuário o valor que ele ganha por hora e o número
 de horas trabalhadas no mês.
@@ -11,29 +10,23 @@ Mostre os dados para o usuário conforme a tabela abaixo:
     (-) INSS (8%): R$
     (-) Sindicato (5%): R$
     (-) Descontos: R$
-    (=) Salário líquido: R$
-"""
+    (=) Salário líquido: R$ """
 
 valor_hora = float(input("Digite qual o valor ganho por hora: "))
-horas_trabalhadas = float(
-    input("Digite a quantidade de horas trabalhadas durante o mês: ")
-)
+horas_trabalhadas = float(input("Digite a quantidade de horas trabalhadas durante o mês: "))
 
 salario_bruto = valor_hora * horas_trabalhadas
-
 imposto_de_renda = salario_bruto * 0.11
-
 inss = salario_bruto * 0.08
-
 sindicato = salario_bruto * 0.05
-
 descontos = imposto_de_renda + inss + sindicato
-
 salario_liquido = salario_bruto - descontos
 
-print(f"\n(+) Salário bruto: R${salario_bruto:.2f}")
-print(f"(-) IR (11%): R${imposto_de_renda:.2f}")
-print(f"(-) INSS (8%): R${inss:.2f}")
-print(f"(-) Sindicato (5%): R${sindicato:.2f}")
-print(f"(-) Descontos: R${descontos:.2f}")
-print(f"(=) Salário líquido: R${salario_liquido:.2f}")
+# print(f"\n(+) Salário bruto: R${salario_bruto:.2f}")
+# print(f"(-) IR (11%): R${imposto_de_renda:.2f}")
+# print(f"(-) INSS (8%): R${inss:.2f}")
+# print(f"(-) Sindicato (5%): R${sindicato:.2f}")
+# print(f"(-) Descontos: R${descontos:.2f}")
+# print(f"(=) Salário líquido: R${salario_liquido:.2f}")
+
+print(f"\n(+) Salário bruto: R${salario_bruto:.2f}\n(-) IR (11%): R${imposto_de_renda:.2f}\n(-) INSS (8%): R${inss:.2f}\n(-) Sindicato (5%): R${sindicato:.2f}\n(-) Descontos: R${descontos:.2f}\n(=) Salário líquido: R${salario_liquido:.2f}\n")

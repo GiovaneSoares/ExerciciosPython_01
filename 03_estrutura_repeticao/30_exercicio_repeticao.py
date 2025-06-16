@@ -12,3 +12,25 @@ fornecido pelo cliente.
     Dinheiro: R$ 20.00
     Troco: R$ 11.00
 """
+total_compra = 0
+item = 1
+
+while True:
+    preco_produto = float(input(f"Produto {item}: R$  ").replace(",", "."))
+    if preco_produto == 0:
+        break
+
+    total_compra += preco_produto
+    item += 1
+
+print(f"Total R$ {total_compra:.2f}")
+
+valor_pago = float(input("Dinheiro R$ ").replace(",", "."))
+
+while valor_pago < total_compra:
+    print(f"Valor insuficiente!")
+    valor_pago = float(input("Dinheiro R$ ").replace(",", "."))
+
+troco = valor_pago - total_compra
+
+print(f"Troco: R$ {troco:.2f}")

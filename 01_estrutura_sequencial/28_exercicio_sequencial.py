@@ -6,3 +6,7 @@ alto nível.".
 O programa deve substituir a palavra "Python" por "JavaScript" e exibir a nova
 string.
 """
+string = ("Python é uma linguagem de programação de alto nivel")
+print(string)
+nova = string.replace("Python", "JavaScript")
+print(nova)

@@ -9,3 +9,9 @@ R$1,99, listando os preços de 1 a 50 produtos.
     ...
     50 - R$ 99.50
 """
+PREÇO_UNITARIO = 1.99
+
+print("--- Tabela ---")
+
+for i in range(1, 51):
+    print(f"{i} - R$ {i * PREÇO_UNITARIO:.2f}")

@@ -6,3 +6,7 @@ Desenvolva um programa que comece com uma lista contendo as palavras "Python", "
 O programa deve inserir a palavra "muito" entre "é" e "legal".
 Após a inserção, exiba a lista modificada.
 """
+
+lista = ["Python", "é", "Legal"]
+lista.insert(2, "Muito")
+print(lista)

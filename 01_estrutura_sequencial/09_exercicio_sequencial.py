@@ -4,6 +4,5 @@
 # Fórmula:
 #     C = (F - 32) / 1.8
 temperatura = float(input("Digite a temperatura em Fahrenheit: "))
-print(
-    f"A temperatura de { temperatura} ºF convertida para Celsius é de {(temperatura - 32) / 1.8 :.1f} ºC."
-)
+print(f"A temperatura de { temperatura} ºF convertida para Celsius é de {(temperatura - 32) / 1.8 :.1f} ºC.")
+

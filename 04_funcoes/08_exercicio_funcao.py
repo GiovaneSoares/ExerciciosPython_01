@@ -6,3 +6,7 @@ informado.
 A função deve aceitar um número inteiro como argumento e retornar quantos dígitos esse
 número possui.
 """
+def quantidade(numero):
+    return len(str(abs(numero)))
+
+print(quantidade( 25))
