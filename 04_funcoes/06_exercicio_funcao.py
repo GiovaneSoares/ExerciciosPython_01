@@ -6,7 +6,7 @@ Por exemplo, deve converter 14:25 em 2:25 P.M.
 Implemente funções para a conversão e para exibir o resultado.
 Inclua um loop permitindo ao usuário repetir a operação com novos valores.
 """
-def converter_hora(hora_24, minutos):
+def converter_hora(hora_24, minutos) -> str:
     if hora_24 < 12:
         am_pm = "A.M."
     else:
@@ -19,7 +19,7 @@ def converter_hora(hora_24, minutos):
 
     return f"{hora_12:02}:{minutos:02} {am_pm}"
 
-def imprimir_hora_convertida(hora_24, minutos):
+def imprimir_hora_convertida(hora_24, minutos) -> None:
     print(converter_hora(hora_24=hora_24, minutos=minutos))
 
 while True:
@@ -30,7 +30,7 @@ while True:
         print("Digite um horario valido!")
         continue
 
-    imprimir_hora_convertida(hora_24, minutos)
+    imprimir_hora_convertida(hora_24=hora_24, minutos=minutos)
 
     continuar = input("Deseja converter outro horario? (S/N): ").upper()
     if continuar != "S":
