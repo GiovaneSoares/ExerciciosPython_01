@@ -18,7 +18,6 @@ excesso = peso_peixes - 50
 
 multa = excesso * 4
 
-
 if peso_peixes < 0:
     print("Número invalido, digite um valor maior que 0")
 

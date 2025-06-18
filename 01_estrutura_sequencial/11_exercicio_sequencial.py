@@ -11,6 +11,7 @@ Escreva um programa que:
 nome = input("Digite seu primeiro nome: ").title()
 sobrenome = input("Digite o sobrenome: ").title()
 nome_completo = nome + " " + sobrenome
+substituir = input("Digite um sobrone que deseja substituir pelo seu atual: ")
 print(f"Bem vindo! {nome}.\n")
 
 numero_de_letras = len(nome_completo.replace(" ", ""))
@@ -19,5 +20,5 @@ print(f"Seu nome apresentado em caixa alta é: {nome_completo.upper()}.\n")
 print(f"O seu nome apresentado em letras minusculas: {nome_completo.lower()}.\n")
 print(f"Seu nome com as palavras capitalizadas: {nome_completo.title()}.\n")
 print(
-    f"O seu novo sobrenome agora é: {nome_completo.replace('Cordeiro', 'Azevedo')}.\n"
+    f"O seu novo sobrenome agora é: {nome_completo.replace(f' {sobrenome}', ' 'f'{substituir}')}.\n"
 )
