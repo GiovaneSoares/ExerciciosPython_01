@@ -10,3 +10,32 @@ organização conforme a seguinte tabela de critérios, baseando-se no salário 
 O programa deve exibir o salário antes do reajuste, o percentual aplicado, o valor do
 aumento e o novo salário.
 """
+salario_atual = float(input("Digite o valor do salario atual R$: "))
+
+if salario_atual > 0 and salario_atual <= 280:
+    aumento = salario_atual * 0.2
+    novo_salario = salario_atual + aumento
+    print(
+        f"O salario atual de R${salario_atual:.2f} com o novo reajuste passa a ser de R${novo_salario:.2f}."
+    )
+
+if salario_atual > 280 and salario_atual <= 700:
+    aumento = salario_atual * 0.15
+    novo_salario = salario_atual + aumento
+    print(
+        f"O salario atual de R${salario_atual:.2f} com o novo reajuste passa a ser de R${novo_salario:.2f}."
+    )
+
+if salario_atual > 700 and salario_atual <= 1500:
+    aumento = salario_atual * 0.1
+    novo_salario = salario_atual + aumento
+    print(
+        f"O salario atual de R${salario_atual:.2f} com o novo reajuste passa a ser de R${novo_salario:.2f}."
+    )
+
+elif salario_atual > 1500:
+    aumento = salario_atual * 0.05
+    novo_salario = salario_atual + aumento
+    print(
+        f"O salario atual de R${salario_atual:.2f} com o novo reajuste passa a ser de R${novo_salario:.2f}."
+    )
