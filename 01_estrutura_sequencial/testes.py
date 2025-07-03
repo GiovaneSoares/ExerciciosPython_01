@@ -13,4 +13,3 @@
 #     if n % 2 == 0:
 #         numeros.append(n)
 # print(pares)
-
