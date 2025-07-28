@@ -25,7 +25,7 @@ if peso_peixes >= 50:
     # print(f"Quantidade adquirada: {peso_peixes} Kg.")
     # print(f"Excesso de kg: {excesso}.")
     # print(f"Multa: R$ {multa}.")
-    print(f"Ultrapassou a quantidade de permitida de 50 Kg! O excesso foi de {excesso} kg e a multa é de R$ {multa:.2f}.")
+    print(f"Ultrapassou a quantidade de permitida de 50 Kg! O excesso foi de {excesso:.2f} kg e a multa é de R$ {multa:.2f}.")
 
 elif peso_peixes < 50 or peso_peixes == 0:
     print("Quantidade permitida! Não há excesso e nem multas a serem cobradas!")
