@@ -30,18 +30,18 @@ class Carro:
         self.cadastrar_carro()
         # print(f"{self.cadastrar_carro()}")
 
-# def buscar_carro(lista_carros: list, buscar_placa: str):
-#     for carro in lista_carros:
-#         if carro.placa == buscar_placa:
-#             return carro
-#             # print(f"{carro}")
-#     return None
+def buscar_carro(lista_carros: list, buscar_placa: str):
+    # for carro in lista_carros:
+    #     if carro.placa == buscar_placa:
+    #         return carro
+    #         # print(f"{carro}")
+    # return None
 
 Mercedes_G63 = Carro("Mercedes", "G63", 2026, "AST7674", "Prata", 565_000.0)
 uno_verde = Carro("Fiat", "Uno", 2011, "AFO7674", "Verde", 25.00)
 
 
-# --- FUNÇÃO CRIADA PARA PROCURAR CARRO POR PLACA --- 
+# # --- FUNÇÃO CRIADA PARA PROCURAR CARRO POR PLACA --- 
 # lista_de_carros = [Mercedes_G63, uno_verde]
 # carro_encontrado = buscar_carro(lista_de_carros, "AST7674")
 # if carro_encontrado:
