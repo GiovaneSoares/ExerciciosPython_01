@@ -1,1 +1,1 @@
-# ExerciciosPython_01
+Com esta lista de exercícios, consigo demonstrar um pouco do que venho praticando, utilizando alguns problemas do dia a dia para melhor desenvolver meu raciocínio lógico, transformando-os em algoritmos de linguagem de programação em Python.
